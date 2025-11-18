@@ -149,19 +149,19 @@ const EXPERIENCE = [
 const CERTIFICATIONS = [
   {
     title: "Deloitte Australia Cyber Job Simulation – Forage",
-    img: "src/assets/certs/deloitte.png",
+    img: "/certs/deloitte.png",
   },
   {
     title: "UI/UX Design & 3D Modelling Workshop",
-    img: "src/assets/certs/uiux.jpg",
+    img: "/certs/uiux.jpg",
   },
   {
     title: "Digital Marketing – 30-hour Course",
-    img: "src/assets/certs/dm.jpg",
+    img: "/certs/dm.jpg",
   },
   {
     title: "Data Analytics & Visualization – 30-hour Course",
-    img: "src/assets/certs/data.png",
+    img: "/certs/data.png",
   },
   // {
   //   title: "Digital Skills & AI Fluency Training Program",
