@@ -1,0 +1,60 @@
+<section id="skills" className="px-8 py-20 max-w-6xl mx-auto">
+  <h3 className="text-4xl font-bold mb-12 text-center">Skills</h3>
+
+  <div className="grid md:grid-cols-2 gap-10">
+
+    {/* Development Skills */}
+    <div className="backdrop-blur-xl bg-white/10 dark:bg-white/5 border border-white/20 rounded-3xl p-8 shadow-[0_8px_30px_rgba(0,0,0,0.3)]">
+      <h4 className="text-2xl font-bold mb-4">Development Skills</h4>
+      <ul className="space-y-3 opacity-90 text-sm">
+
+        {/* Programming */}
+        <li className="flex items-center gap-2"><SiDart /> Dart</li>
+        <li className="flex items-center gap-2"><FaPython /> Python</li>
+        <li className="flex items-center gap-2"><FaJava /> Java</li>
+        <li className="flex items-center gap-2"><SiJavascript /> JavaScript</li>
+
+        {/* Web Dev */}
+        <li className="flex items-center gap-2"><SiHtml5 /> HTML5</li>
+        <li className="flex items-center gap-2"><SiCss3 /> CSS3</li>
+        <li className="flex items-center gap-2"><SiJavascript /> JavaScript (ES6+)</li>
+
+        {/* Frameworks */}
+        <li className="flex items-center gap-2"><SiFlutter /> Flutter</li>
+        <li className="flex items-center gap-2"><FaReact /> React</li>
+        <li className="flex items-center gap-2"><SiDjango /> Django</li>
+        <li className="flex items-center gap-2"><SiTailwindcss /> Tailwind CSS</li>
+        <li className="flex items-center gap-2"><SiBootstrap /> Bootstrap</li>
+        <li className="flex items-center gap-2"><SiFramer /> Framer Motion</li>
+
+        {/* Backend & Databases */}
+        <li className="flex items-center gap-2"><SiSupabase /> Supabase</li>
+        <li className="flex items-center gap-2"><SiFirebase /> Firebase</li>
+        <li className="flex items-center gap-2"><SiMysql /> MySQL</li>
+        <li className="flex items-center gap-2"><FaDatabase /> SQLite</li>
+
+        {/* Tools */}
+        <li className="flex items-center gap-2"><FaGitAlt /> Git & GitHub</li>
+        <li className="flex items-center gap-2"><FaEdit /> VS Code</li>
+        <li className="flex items-center gap-2"><FaAndroid /> Android Studio</li>
+        <li className="flex items-center gap-2"><FaFigma /> Figma</li>
+      </ul>
+    </div>
+
+    {/* Cybersecurity Skills */}
+    <div className="backdrop-blur-xl bg-white/10 dark:bg-white/5 border border-white/20 rounded-3xl p-8 shadow-[0_8px_30px_rgba(0,0,0,0.3)]">
+      <h4 className="text-2xl font-bold mb-4">Cybersecurity Skills</h4>
+      <ul className="space-y-3 opacity-90 text-sm">
+
+        <li className="flex items-center gap-2"><FaShieldAlt /> Network Security</li>
+        <li className="flex items-center gap-2"><FaShieldAlt /> Digital Forensics</li>
+        <li className="flex items-center gap-2"><FaShieldAlt /> Penetration Testing</li>
+        <li className="flex items-center gap-2"><FaShieldAlt /> Suspicious Activity Detection</li>
+        <li className="flex items-center gap-2"><FaShieldAlt /> Cybersecurity Incident Response</li>
+        <li className="flex items-center gap-2"><FaShieldAlt /> Web Application Security</li>
+        <li className="flex items-center gap-2"><FaShieldAlt /> Security Best Practices</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
