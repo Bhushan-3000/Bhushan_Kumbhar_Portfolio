@@ -205,7 +205,7 @@ function Nav({ active, setOpen, open }) {
             ))}
 
             <a
-              href="/resume.pdf"
+              href="/Bhushan_Kumbhar_Portfolio/resume.pdf"
               className="ml-4 px-4 py-2 rounded-lg bg-purple-600/70 hover:bg-purple-600 transition text-white flex items-center gap-2"
             >
               <FaDownload /> Resume
@@ -214,7 +214,7 @@ function Nav({ active, setOpen, open }) {
 
           {/* mobile toggles */}
           <div className="md:hidden flex items-center gap-2">
-            <a href="/resume.pdf" className="text-white/90 p-2 hidden sm:inline-flex">
+            <a href="/Bhushan_Kumbhar_Portfolio/resume.pdf" className="text-white/90 p-2 hidden sm:inline-flex">
               <FaDownload />
             </a>
             <button
@@ -340,7 +340,7 @@ export default function App() {
                   View Projects
                 </a>
                 <a
-                  href="/resume.pdf" target="_new"
+                  href="/Bhushan_Kumbhar_Portfolio/resume.pdf" target="_new"
                   className="px-4 py-2 rounded-2xl border border-white/10 text-white/90 hover:bg-white/5 transition flex items-center gap-2"
                 >
                   <FaDownload /> Resume
