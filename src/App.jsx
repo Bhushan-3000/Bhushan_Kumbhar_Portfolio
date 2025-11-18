@@ -112,7 +112,7 @@ const PROJECTS = [
     title: "ChatNova – Real-Time Messaging App",
     desc:
       "Flutter app using Supabase for real-time chat, media sharing, groups, and statuses.",
-    img: "/projects/chatnova.png", // placeholder - add image to public/projects/
+    img: "/Bhushan_Kumbhar_Portfolio/projects/chatnova.png", // placeholder - add image to public/projects/
     github: "https://github.com/Bhushan-3000/ChatNova",
     live: "#", // mobile app so maybe PlayStore link or demo GIF
   },
@@ -120,7 +120,7 @@ const PROJECTS = [
     title: "FlavorVault – Recipe Management",
     desc:
       "Django-based recipe platform with ingredient e-commerce, cart, and admin dashboard.",
-    img: "/projects/flavorvault.png",
+    img: "/Bhushan_Kumbhar_Portfolio/projects/flavorvault.png",
     github: "https://github.com/Bhushan-3000/FLAVORVAULT",
     live: "#",
   },
