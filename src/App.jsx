@@ -528,7 +528,7 @@ export default function App() {
 
     {/* Tools */}
     <div className="backdrop-blur-xl bg-white/10 dark:bg-white/5 border border-white/20 rounded-3xl p-8 shadow-[0_8px_30px_rgba(0,0,0,0.3)]">
-      <h4 className="text-2xl font-bold mb-4">Tools</h4>
+      <h4 className="text-2xl font-bold mb-4">Other Tools</h4>
       <ul className="space-y-3 opacity-90 text-sm">
         <li className="flex items-center gap-2"><FaGitAlt /> Git & GitHub</li>
         <li className="flex items-center gap-2"><FaEdit /> VS Code</li>
