@@ -19,6 +19,7 @@ import {
 } from "react-icons/fa";
 import {
   FaJava,
+  FaDocker,
   FaPython,
   FaReact,
   FaGitAlt,
@@ -34,6 +35,11 @@ import {
 
 import {
   SiDart,
+  SiAmazon,
+  SiGooglecloud,
+  SiKubernetes,
+  SiGithubactions,
+  SiUbuntu,
   SiFlutter,
   SiSupabase,
   SiTailwindcss,
@@ -186,7 +192,7 @@ function Nav({ active, setOpen, open }) {
     />
             <div>
               <div className="text-white font-semibold">Bhushan Kumbhar</div>
-              <div className="text-xs text-white/60">Cybersecurity | Developer | UI/UX </div>
+              <div className="text-xs text-white/60">Cloud | Deployment | Development</div>
             </div>
           </div>
 
@@ -323,11 +329,10 @@ export default function App() {
             <div className="backdrop-blur-xl bg-white/6 border border-white/10 rounded-3xl p-10 max-w-3xl">
               <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
                 Where <span className="font-extrabold">Development</span>  Meets{" "}
-                <span className="text-purple-300 font-extrabold">Cybersecurity</span>
+                <span className="text-purple-300 font-extrabold">Cloud</span>
               </h1>
               <p className="text-lg text-white/85 leading-relaxed mb-6">
-                I'm <strong>Bhushan Kumbhar</strong> — Cyber Security & Digital
-                Forensics Professional and Software Developer. I build secure apps, investigate digital incidents, and ship polished UX.
+                I'm <strong>Bhushan Kumbhar</strong> — Cloud Computing Professional with a strong software development background. I build and deploy cloud-ready web and mobile applications, focusing on scalable architecture, reliable deployment, and clean user experiences.
                 
               </p>
               
@@ -370,9 +375,9 @@ export default function App() {
                 />
               </div>
               <div className="text-xl font-semibold">Bhushan Kumbhar</div>
-              <div className="text-sm text-white/70 mb-3">Cybersecurity • Developer • UI/UX</div>
+              <div className="text-sm text-white/70 mb-3">Cloud • Deployment • Development</div>
               <p className="text-sm text-white/80">
-                Developing expertise in cybersecurity, digital forensics, penetration testing, and ethical hacking to create secure, impactful tech solutions. 
+                Developing expertise in cloud computing, infrastructure fundamentals, and application deployment to build reliable and scalable cloud solutions.
               </p>
             </div>
           </motion.div>
@@ -390,17 +395,15 @@ export default function App() {
           >
             <h3 className="text-2xl font-bold mb-2">About Me</h3>
             <p className="text-white/85 mb-4">
-              I’m Bhushan — a Cybersecurity, Digital Forensics and Software Developer. I graduated from MES
-              Garware College of Commerce, Pune  and currently pursuing MCA in Cyber Security & Digital
-              Forensics at Seamedu - ADYPU. I enjoy building reliable systems, investigating
-              incidents, and improving security through code.
+              I’m Bhushan — a Cloud Computing Professional and Software Developer. I graduated from MES
+              Garware College of Commerce, Pune  and currently pursuing MCA in Cloud Computing at Seamedu - ADYPU. I enjoy building reliable, cloud-ready systems, working with infrastructure fundamentals, and deploying applications on modern cloud platforms.
             </p>
 
             <div className="mt-4">
               <h4 className="font-semibold mb-2">Education</h4>
               <ul className="text-sm text-white/80 space-y-2">
                 <li>
-                  <strong>MCA — Cyber Security & Digital Forensics</strong>
+                  <strong>MCA — Cloud Computing</strong>
                   <div className="text-xs text-white/70">Seamedu - Ajeenkya DY Patil University (Pursuing)</div>
                 </li>
                 <li>
@@ -468,6 +471,8 @@ export default function App() {
         <li className="flex items-center gap-2"><FaPython /> Python</li>
         <li className="flex items-center gap-2"><FaJava /> Java</li>
         <li className="flex items-center gap-2"><SiJavascript /> JavaScript</li>
+        <li className="flex items-center gap-2"><FaDatabase /> SQL & NoSQL</li>
+
         {/* <li className="flex items-center gap-2"><FaDatabase /> SQL</li> */}
       </ul>
     </div>
@@ -487,12 +492,12 @@ export default function App() {
 
     {/* Databases & Backend */}
     <div className="backdrop-blur-xl bg-white/10 dark:bg-white/5 border border-white/20 rounded-3xl p-8 shadow-[0_8px_30px_rgba(0,0,0,0.3)]">
-      <h4 className="text-2xl font-bold mb-4">Databases & Backend</h4>
+      <h4 className="text-2xl font-bold mb-4">Cloud & Backend</h4>
       <ul className="space-y-3 opacity-90 text-sm">
+        <li className="flex items-center gap-2"><SiAmazon /> AWS (EC2, S3, Lambda)</li>     
+        <li className="flex items-center gap-2"><SiGooglecloud /> Google Cloud Platform (GCP)</li>         
         <li className="flex items-center gap-2"><SiSupabase /> Supabase</li>
         <li className="flex items-center gap-2"><SiFirebase /> Firebase</li>
-        <li className="flex items-center gap-2"><SiMysql /> MySQL</li>
-        <li className="flex items-center gap-2"><FaDatabase /> SQLite</li>
         {/* <li className="flex items-center gap-2"><FaGitAlt /> REST APIs</li> */}
       </ul>
     </div>
@@ -511,13 +516,13 @@ export default function App() {
 
     {/* Cybersecurity Skills */}
     <div className="backdrop-blur-xl bg-white/10 dark:bg-white/5 border border-white/20 rounded-3xl p-8 shadow-[0_8px_30px_rgba(0,0,0,0.3)]">
-      <h4 className="text-2xl font-bold mb-4">Cybersecurity</h4>
+      <h4 className="text-2xl font-bold mb-4">Cloud Tools & DevOps</h4>
       <ul className="space-y-3 opacity-90 text-sm">
-        <li className="flex items-center gap-2"><FaNetworkWired /> Networking Fundamentals</li>
-        <li className="flex items-center gap-2"><FaShieldAlt /> Log Analysis</li>
-        <li className="flex items-center gap-2"><FaUser /> Security Operations SOC</li>
-        <li className="flex items-center gap-2"><FaShieldAlt /> Suspicious Activity Detection</li>
-        <li className="flex items-center gap-2"><FaLock /> Security Best Practices</li>
+        <li className="flex items-center gap-2"><SiUbuntu /> Ubuntu (Linux)</li>
+        <li className="flex items-center gap-2"><FaDocker /> Docker & Containers</li>
+        <li className="flex items-center gap-2"><SiKubernetes /> Kubernetes</li>
+        <li className="flex items-center gap-2"><SiGithubactions /> CI/CD Pipelines</li>
+       
       </ul>
     </div>
 
