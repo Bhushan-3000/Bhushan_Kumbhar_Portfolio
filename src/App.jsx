@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import profileImg from "./assets/profile.JPG";
+import profileImg from "./assets/profile.png";
 
 import { motion, AnimatePresence } from "framer-motion";
 import {
