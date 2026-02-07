@@ -705,7 +705,8 @@ export default function App() {
       {/* FOOTER */}
       <footer className="py-6 text-center opacity-70 border-t border-white/8">
         {/* © {new Date().getFullYear()}  */}
-        Bhushan Kumbhar • Cybersecurity | Developer | UI/UX — © 2025
+        Bhushan Kumbhar — © 2026 <br></br>
+        From Code to Cloud ☁️ 
 
       </footer>
     </div>
