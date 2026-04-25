@@ -115,6 +115,22 @@ const SKILLS = [
 
 const PROJECTS = [
   {
+    title: "CloudPulse AI – Real-Time AWS Cloud Monitoring + AI Insights Engine",
+    desc:
+      "Real-time AWS monitoring platform with AI-driven insights for EC2 performance and optimization.",
+    img: "/Bhushan_Kumbhar_Portfolio/projects/cloudpulse.png", // placeholder - add image to public/projects/
+    github: "https://github.com/Bhushan-3000/CloudPulse-Ai",
+    live: "#", // mobile app so maybe PlayStore link or demo GIF
+  },
+  {
+    title: "Nova Voice Assistant – AI-Powered Desktop Assistant",
+    desc:
+      "Voice-controlled AI desktop assistant built with Python and Ollama (Mistral) for intelligent system automation.",
+    img: "/Bhushan_Kumbhar_Portfolio/projects/nova.png", // placeholder - add image to public/projects/
+    github: "https://github.com/Bhushan-3000/Nova-Voice-Assistant",
+    live: "#", // mobile app so maybe PlayStore link or demo GIF
+  },
+  {
     title: "ChatNova – Real-Time Messaging App",
     desc:
       "Flutter app using Supabase for real-time chat, media sharing, groups, and statuses.",
@@ -149,10 +165,26 @@ const EXPERIENCE = [
     date: "2023 — 2024",
     bullets: ["Managed content planning", "Improved engagement metrics"],
   },
+  {
+  title: "Web Development Intern",
+  org: "Oasis Infobyte, OctaNet Services Pvt Ltd, Bharat Intern",
+  date: "2024",
+  bullets: [
+    "Built responsive web apps using HTML, CSS, JS, Bootstrap",
+    "Worked on landing pages, UI tasks, and mini projects",
+    "Gained experience in real-world development workflows",
+    "Improved frontend and basic backend integration skills",
+    "Awarded Star Performer (AICTE Oasis Infobyte)"
+  ],
+  }
 ];
 
 /* ---------------------------- CERTIFICATIONS ARRAY ---------------------------- */
 const CERTIFICATIONS = [
+  {
+    title: "Tata - Cybersecurity Analyst Job Simulation",
+    img: "/Bhushan_Kumbhar_Portfolio/certs/tata.png",
+  },
   {
     title: "Deloitte Australia Cyber Job Simulation – Forage",
     img: "/Bhushan_Kumbhar_Portfolio/certs/deloitte.png",
