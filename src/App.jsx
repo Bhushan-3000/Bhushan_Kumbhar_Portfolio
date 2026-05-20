@@ -182,6 +182,10 @@ const EXPERIENCE = [
 /* ---------------------------- CERTIFICATIONS ARRAY ---------------------------- */
 const CERTIFICATIONS = [
   {
+    title: "Azure Fundamentals (AZ-900) - Microsoft Learning & FICE",
+    img: "/Bhushan_Kumbhar_Portfolio/certs/Azure.png",
+  },
+  {
     title: "Tata - Cybersecurity Analyst Job Simulation",
     img: "/Bhushan_Kumbhar_Portfolio/certs/tata.png",
   },
